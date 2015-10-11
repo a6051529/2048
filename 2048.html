@@ -55,16 +55,16 @@
             100%{transform:scale(1);}
         }        
         .fl {float: left;}
-        ul {
+        .game-ul {
             padding: 0;
             position: relative;            
-            background: url(bg.png) center center;
+            background: url(lib/bg.png) center center;
             -webkit-background-size: 100%;
             background-size: 100%;
             list-style-type: none;
             margin: 0 auto;
         }
-        li {
+        .game-li {
             display: table;
             margin: 1.219512195122%;
             width: 21.951219512195%;
@@ -80,18 +80,15 @@
             -webkit-transition: all 0.18s ease 0s;
             transition: all 0.18s ease 0s;
         }
-        li span{
+        .game-li span{
             display: table-cell;
             line-height: 1;
             vertical-align: middle;
         }
-        li.show{
+        .game-li.show{
             -webkit-transform: scale(1);
             transform: scale(1);            
-        }
-        li.bound{
-/*            animation: bound            */
-        }        
+        }       
         .li2 { color: #776e65;background: #eee4da;}
         .li4 { color: #776e65;background: #ece0c8;}
         .li8 { color: #fff;background: #f2b179;}
@@ -202,14 +199,14 @@
             </div>
         </div>
     </header>
-    <ul>
+    <ul class="game-ul">
     </ul>
 <!--    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>-->
     <script type="text/javascript" src="jquery.js"></script>
-    <script type="text/javascript" src="game.js"></script>
+    <script type="text/javascript" src="lib/game.js"></script>
     <script>        
         $(function () {
-            game2048.init();
+            game2048.init('body');
         });
     </script>
 </body>
