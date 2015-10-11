@@ -50,11 +50,12 @@ html .clearfix { *zoom: 1; } /*IE6 IE7 */
 .fl {float: left;}
 .game-ul {
     padding: 0;
-    position: relative;            
-    background: url(lib/bg.png) center center;
+    position: relative;          
+    background: url(bg.png) center center;
     -webkit-background-size: 100%;
     background-size: 100%;
     list-style-type: none;
+    border-radius: 6px;
     margin: 0 auto;
 }
 .game-li {
@@ -169,4 +170,18 @@ header{
     text-align: center;
     color: #fff;
     cursor: pointer;        
+}
+@media screen and (max-width:640px){
+    .game-score p{
+        font-size: 0.2rem;
+    }
+    .game-li {
+        font-size: 0.7rem;
+    }
+    .li1024,
+    .li2048,
+    .li4096,
+    .li8192{
+        font-size: 0.5rem;
+    }
 }
