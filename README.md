@@ -5,5 +5,5 @@ html5版的2048游戏
 * 3.提供死局检测，实时计分，历史最高成绩记录以及重新开始功能
 * 4.游戏方法：↑上滑 ↓下滑 ←左滑 →右滑
 
-#### [查看演示](http://a6051529.github.io/2048/demo.html "2048游戏演示") ####
+<h4>  <a class="anchor" href="http://a6051529.github.io/2048/demo.html" target="_blank">查看演示</a></h4>
 ![](demo.png)
