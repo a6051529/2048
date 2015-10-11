@@ -171,12 +171,36 @@ header{
     color: #fff;
     cursor: pointer;        
 }
-@media screen and (max-width:640px){
+@media screen and (max-width:640px) {
     .game-score p{
         font-size: 0.2rem;
     }
     .game-li {
         font-size: 0.7rem;
+    }
+    .li128,
+    .li256,
+    .li512{
+        font-size: 0.6rem;
+    }
+    .li1024,
+    .li2048,
+    .li4096,
+    .li8192{
+        font-size: 0.5rem;
+    }    
+}
+@media screen and (max-device-width:640px) {
+    .game-score p{
+        font-size: 0.2rem;
+    }
+    .game-li {
+        font-size: 0.7rem;
+    }
+    .li128,
+    .li256,
+    .li512{
+        font-size: 0.6rem;
     }
     .li1024,
     .li2048,
