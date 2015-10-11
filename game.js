@@ -26,7 +26,7 @@ var game2048 = {
         $('.restart').off('click').on('click', function(){
             This.restartGame();
         });
-        config.$wrap.off('keypress').on('keypress', function (event) {
+        config.$wrap.off('keyup').on('keyup', function (event) {
             This.move(event.keyCode);
             return false;
         });                
